@@ -1,9 +1,11 @@
 # SSISDemos
 SSIS demos for Microsoft course 20463
 
-A simple demo to show how you can use a script control task to pull information from Active Directory.
+A simple demo to show 
+1. how you can use a script control task to pull information from Active Directory.
+2. How you can use AD via a data flow script source component
 
-The resulting list of users is pushed into a table called usersin a database called AdTest
+The control flow task dumps the users into a table called Users in a database called AdTest.
 
 The code to build the table is -
 
